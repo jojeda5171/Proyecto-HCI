@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+
+ul,
+li {
+    display: inline;
+    word-spacing: 1em;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    float: left;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+    padding: 1% 1%;
+}
+
+.menu {
+    float: left;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.menu_accion {
+    display: flex;
+    float: left;
+    width: 13%;
+    justify-content: right;
+    align-items: center;
+    padding-right: 2%;
+
+}
+
+.ico_menu {
+    width: 95%;
+    padding-left: 5%;
+}
+
+.svg_menu {
+    width: 100%;
+    height: 100%;
+}
+
+nav.menu_img {
+    align-content: center;
+    overflow: hidden;
+    width: 96%;
+    margin-left: 2%;
+    height: auto;
+}
+
+.Letras {
+    padding: 10px 2%;
+}
+
+.imagen {
+    top: 0;
+    left: 0;
+}
+
+.menu_img:hover .imagen img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.imagen img {
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+}
+
+div.galeria {
+    line-height: 0;
+    margin: 2% 2%;
+    box-shadow: 0 4px 8px 0 rgb(74, 74, 77), 0 6px 20px 0 rgb(0, 0, 0);
+    float: left;
+    width: 29.33%;
+}
+
+div.galeria img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+.just {
+    background-color: rgb(0, 0, 0);
+    width: 98%;
+    align-content: center;
+}
+
+div.galeria1 {
+    line-height: 0;
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+    width: 23%;
+}
+
+div.galeria1 img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+div.pie_pag {
+    text-align: left;
+    text-shadow: 2px 2px 5px #000000;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .7em;
+    
+}
+
+div.encabezado {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+    width: 96%;
+    margin: 0 2%;
+    border-bottom: #000000 1px solid;
+}
+
+.especial {
+    display: flex;
+    width: 96%;
+    margin-top: 31%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: auto;
+}
+
+div.galeria2 {
+    display: flex;
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgb(74, 74, 77), 0 6px 20px 0 rgb(0, 0, 0);
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+div.galeria2 img {
+    width: 100%;
+}
+
+div.description {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px #000000;
+    text-align: center;
+}
+
+.footer {
+    display: flexbox;
+    background-color: #FEC333;
+    width: 100%;
+    margin-top: 2.5%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_1 {
+    display: flex;
+    width: 96%;
+    padding: 0 2%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.unete {
+    display: flexbox;
+    font-family: 'Big Shoulders Display', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    margin-right: 25%;
+}
+
+input {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 0.1em;
+    width: auto;
+    background-color: transparent;
+    margin-top: 1%;
+}
+
+.list {
+    display: flexbox;
+    width: 100%;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: .5em;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer_2 {
+    width: 96%;
+    padding: 2% 2%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_3 {
+    display: inline-flex;
+    width: 96%;
+    padding: 0 2%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: .5em;
+    align-items: center;
+}
+
+.derechos {
+    float: left;
+    width: 100%;
+}
+
+.redes {
+    float: right;
+    text-align: right;
+    width: 80%;
+}
+
+footer div div nav a:hover {
+    color: #ffffff;
+    border: #000000 .1em solid;
+    width: 100%;
+    border-radius: 4px;
+}
+
+footer div div a:hover {
+    color: #ffffff;
+    border: #000000 .1em solid;
+    width: 100%;
+    border-radius: 4px;
+}
+
+div div div p:hover {
+    color: #FEC333;
+}
+
+header div nav ul li a:hover {
+    color: #FEC333;
+}
