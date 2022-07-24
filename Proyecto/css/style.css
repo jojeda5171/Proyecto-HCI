@@ -147,6 +147,7 @@ div.pie_pag {
 }
 
 div.encabezado {
+    padding-left: 2%;
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 800;
     font-size: 16em;
@@ -621,7 +622,7 @@ header div nav ul li a:hover {
     }
 
     div.encabezado{
-        font-size: 1em;
+        font-size: 1.8em;
     }
 
     div.pie_pag{
