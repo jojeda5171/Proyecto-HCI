@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;800&display=swap');
 
 ul, li {
     display: inline;
@@ -140,30 +140,35 @@ div.pie_pag {
     text-align: left;
     text-shadow: 2px 2px 5px #000000;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: .7em;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 500;
+    font-size: 2em;
     
 }
 
 div.encabezado {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 75px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+    font-size: 16em;
     width: 96%;
-    margin: 0 2%;
+    margin: 0 0;
     border-bottom: #000000 1px solid;
 }
 
 .especial {
-    display: flex;
     width: 96%;
+    display: flex;
     margin-top: 31%;
     margin-left: 2%;
     margin-right: 2%;
     height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 div.galeria2 {
     display: flex;
+    width: 100%;
     padding: 2%;
     box-shadow: 0 4px 8px 0 rgb(74, 74, 77), 0 6px 20px 0 rgb(0, 0, 0);
     float: left;
@@ -176,9 +181,22 @@ div.galeria2 img {
 }
 
 div.description {
-    font-family: 'Times New Roman', Times, serif;
+    display: flexbox;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 500;
+    font-size: 3em;
     text-shadow: 2px 2px 5px #000000;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    width: 25%;
+}
+
+.foto_especial{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -195,6 +213,7 @@ div.description {
     display: flex;
     width: 96%;
     padding: 0 2%;
+    padding-top: .5%;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -202,7 +221,10 @@ div.description {
 
 .unete {
     display: flexbox;
-    font-family: 'Big Shoulders Display', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: auto;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 800;
+    font-size: 2em;
     float: left;
     margin-right: 25%;
 }
@@ -210,19 +232,21 @@ div.description {
 input {
     border: 1px solid #000000;
     border-radius: 5px;
-    padding: 0.1em;
     width: auto;
     background-color: transparent;
-    margin-top: 1%;
+    margin-top: 2%;
+    font-family: Arial;
+    font-size: 1em;
 }
 
 .list {
     display: flexbox;
     width: 100%;
     float: right;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    font-size: .5em;
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: 0.05em;
+    font-size: 0.75em;
 }
 
 a {
@@ -243,9 +267,10 @@ a {
     width: 96%;
     padding: 0 2%;
     height: auto;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    font-size: .5em;
+    font-family: 'Open Sans';
+    font-style: normal;
+    letter-spacing: 0.05em;
+    font-size: 0.75em;
     align-items: center;
 }
 
@@ -290,6 +315,34 @@ header div nav ul li a:hover {
     header{
         border-bottom: .09em solid #000000;
     }
+
+    div.encabezado{
+        font-size: 13em;
+    }
+
+    div.pie_pag{
+        font-size: 1.9em;
+    }
+
+    div.description{
+        font-size: 2em;
+    }
+
+    div.unete{
+        font-size: 1em;
+    }
+
+    div.list{
+        font-size: 0.7em;
+    }
+
+    div.footer_3{
+        font-size: 0.7em;
+    }
+
+    div.input{
+        font-size: 0.9em;
+    }
 }
 
 @media only screen and (max-width:1005px) {
@@ -299,6 +352,34 @@ header div nav ul li a:hover {
 
     header{
         border-bottom: .08em solid #000000;
+    }
+
+    div.encabezado{
+        font-size: 12em;
+    }
+
+    div.pie_pag{
+        font-size: 1.8em;
+    }
+
+    div.description{
+        font-size: 1.8em;
+    }
+
+    div.unete{
+        font-size: .9em;
+    }
+
+    div.list{
+        font-size: .65em;
+    }
+
+    div.footer_3{
+        font-size: .62em;
+    }
+
+    div.input{
+        font-size: 0.8em;
     }
 }
 
@@ -310,6 +391,34 @@ header div nav ul li a:hover {
     header{
         border-bottom: .07em solid #000000;
     }
+
+    div.encabezado{
+        font-size: 10em;
+    }
+
+    div.pie_pag{
+        font-size: 1.7em;
+    }
+
+    div.description{
+        font-size: 1.5em;
+    }
+
+    div.unete{
+        font-size: .8em;
+    }
+
+    div.list{
+        font-size: 0.6em;
+    }
+
+    div.footer_3{
+        font-size: .55em;
+    }
+
+    div.input{
+        font-size: 0.7em;
+    }
 }
 
 @media only screen and (max-width:784px) {
@@ -319,6 +428,34 @@ header div nav ul li a:hover {
 
     header{
         border-bottom: .06em solid #000000;
+    }
+
+    div.encabezado{
+        font-size: 9em;
+    }
+
+    div.pie_pag{
+        font-size: 1.6em;
+    }
+
+    div.description{
+        font-size: 1.3em;
+    }
+
+    div.unete{
+        font-size: .7em;
+    }
+
+    div.list{
+        font-size: .55em;
+    }
+
+    div.footer_3{
+        font-size: .47em;
+    }
+
+    div.input{
+        font-size: 0.6em;
     }
 }
 
@@ -330,6 +467,34 @@ header div nav ul li a:hover {
     header{
         border-bottom: .05em solid #000000;
     }
+
+    div.encabezado{
+        font-size: 7em;
+    }
+
+    div.pie_pag{
+        font-size: 1.5em;
+    }
+
+    div.description{
+        font-size: 1.1em;
+    }
+
+    div.unete{
+        font-size: .6em;
+    }
+
+    div.list{
+        font-size: .45em;
+    }
+
+    div.footer_3{
+        font-size: .39em;
+    }
+
+    div.input{
+        font-size: 0.5em;
+    }
 }
 
 @media only screen and (max-width:565px) {
@@ -339,6 +504,34 @@ header div nav ul li a:hover {
 
     header{
         border-bottom: .04em solid #000000;
+    }
+
+    div.encabezado{
+        font-size: 6em;
+    }
+
+    div.pie_pag{
+        font-size: 1.4em;
+    }
+
+    div.description{
+        font-size: .9em;
+    }
+
+    div.unete{
+        font-size: .5em;
+    }
+
+    div.list{
+        font-size: .34em;
+    }
+
+    div.footer_3{
+        font-size: .31em;
+    }
+
+    div.input{
+        font-size: 0.4em;
     }
 }
 
@@ -350,6 +543,34 @@ header div nav ul li a:hover {
     header{
         border-bottom: .03em solid #000000;
     }
+
+    div.encabezado{
+        font-size: 4em;
+    }
+
+    div.pie_pag{
+        font-size: 1.1em;
+    }
+
+    div.description{
+        font-size: .7em;
+    }
+
+    div.unete{
+        font-size: .4em;
+    }
+
+    div.list{
+        font-size: .24em;
+    }
+
+    div.footer_3{
+        font-size: .23em;
+    }
+
+    div.input{
+        font-size: 0.3em;
+    }
 }
 
 @media only screen and (max-width:345px) {
@@ -360,6 +581,34 @@ header div nav ul li a:hover {
     header{
         border-bottom: .02em solid #000000;
     }
+
+    div.encabezado{
+        font-size: 3em;
+    }
+
+    div.pie_pag{
+        font-size: .7em;
+    }
+
+    div.description{
+        font-size: .6em;
+    }
+
+    div.unete{
+        font-size: .3em;
+    }
+
+    div.list{
+        font-size: .15em;
+    }
+
+    div.footer_3{
+        font-size: .15em;
+    }
+
+    div.input{
+        font-size: 0.2em;
+    }
 }
 
 @media only screen and (max-width:235px) {
@@ -369,5 +618,33 @@ header div nav ul li a:hover {
 
     header{
         border-bottom: .01em solid #000000;
+    }
+
+    div.encabezado{
+        font-size: 1em;
+    }
+
+    div.pie_pag{
+        font-size: .4em;
+    }
+
+    div.description{
+        font-size: .3em;
+    }
+
+    div.unete{
+        font-size: .2em;
+    }
+
+    div.list{
+        font-size: .09em;
+    }
+
+    div.footer_3{
+        font-size: .09em;
+    }
+
+    div.input{
+        font-size: 0.1em;
     }
 }
