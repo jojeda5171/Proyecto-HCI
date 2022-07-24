@@ -292,7 +292,27 @@ header div nav ul li a:hover {
     }
 }
 
-@media only screen and (max-width:338px) {
+@media only screen and (max-width:1005px) {
+    div.menu nav{
+        font-size: .8em;
+    }
+
+    header{
+        border-bottom: .08em solid #000000;
+    }
+}
+
+@media only screen and (max-width:894px) {
+    div.menu nav{
+        font-size: .7em;
+    }
+
+    header{
+        border-bottom: .07em solid #000000;
+    }
+}
+
+@media only screen and (max-width:784px) {
     div.menu nav{
         font-size: .6em;
     }
@@ -302,7 +322,7 @@ header div nav ul li a:hover {
     }
 }
 
-@media only screen and (max-width:291px) {
+@media only screen and (max-width:674px) {
     div.menu nav{
         font-size: .5em;
     }
@@ -312,7 +332,7 @@ header div nav ul li a:hover {
     }
 }
 
-@media only screen and (max-width:244px) {
+@media only screen and (max-width:565px) {
     div.menu nav{
         font-size: .4em;
     }
@@ -322,7 +342,7 @@ header div nav ul li a:hover {
     }
 }
 
-@media only screen and (max-width:197px) {
+@media only screen and (max-width:455px) {
     div.menu nav{
         font-size: .3em;
     }
@@ -332,7 +352,7 @@ header div nav ul li a:hover {
     }
 }
 
-@media only screen and (max-width:150px) {
+@media only screen and (max-width:345px) {
     div.menu nav{
         font-size: .2em;
     }
@@ -342,7 +362,7 @@ header div nav ul li a:hover {
     }
 }
 
-@media only screen and (max-width:103px) {
+@media only screen and (max-width:235px) {
     div.menu nav{
         font-size: .1em;
     }
